@@ -105,8 +105,8 @@ public class Player extends MovingObject {
 			collidesWith();
 		
 	}
-	
-	@Override
+	//destructor
+	@Override 
 	public void Destroy() {
 		spawning = true;
 		spawnTime.run(Constants.SPAWNING_TIME);
